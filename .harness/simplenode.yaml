@@ -31,7 +31,7 @@ pipeline:
                   name: BuildAndPushDockerRegistry
                   identifier: BuildAndPushDockerRegistry
                   spec:
-                    connectorRef: account.harnessImage
+                    connectorRef: docker_new
                     repo: veluprabhakaranv/simplenodeapp
                     tags:
                       - latest
